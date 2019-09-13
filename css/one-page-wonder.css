@@ -5,7 +5,8 @@
  */
 
 body {
-  font-family: 'Lato';
+  font-family: 'PT Serif',
+    serif;
 }
 
 h1,
@@ -14,7 +15,8 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Catamaran';
+  font-family: 'PT Serif',
+    serif;
   font-weight: 800 !important;
 }
 
@@ -55,7 +57,7 @@ h6 {
 }
 
 header.masthead {
-  background-image: url(img/flower.jpg);
+  background-image: url(http://benanimg/flower.jpg);
   position: relative;
   overflow: hidden;
   padding-top: calc(7rem + 72px);
@@ -65,6 +67,11 @@ header.masthead {
   background-repeat: no-repeat;
   background-position: center center;
   background-attachment: scroll;
+  background-size: cover;
+}
+
+header.jumbotron {
+  background-image: url("img/flower.jpg");
   background-size: cover;
 }
 
